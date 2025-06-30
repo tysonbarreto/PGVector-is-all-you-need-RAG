@@ -1,0 +1,21 @@
+[project]
+name = "pgvector_pkg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.55.0",
+    "datasets>=3.6.0",
+    "instructor>=1.9.0",
+    "ipykernel>=6.29.5",
+    "loguru>=0.7.3",
+    "openai>=1.92.2",
+    "pandas>=2.3.0",
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+    "timescale-vector>=0.0.7",
+]
+
+[tool.uv.workspace]
+members = ["."]
