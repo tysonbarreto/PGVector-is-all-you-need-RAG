@@ -11,3 +11,4 @@ wheels/
 logs/*
 .env
 *.env
+.vscode
